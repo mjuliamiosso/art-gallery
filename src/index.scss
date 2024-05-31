@@ -1,4 +1,5 @@
 @import './sass/variables';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 *{
   margin: 0;
@@ -6,5 +7,27 @@
   box-sizing: border-box;
 
   background-color: $bg-color;
+  text-decoration: none;
   color: $text-color;
+  font-family: "Inter", sans-serif;
+}
+
+.container{
+  max-width: 374px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+@media (min-width: 1024px){
+  .container{
+    max-width: 904px;
+  }
+}
+
+@media (min-width: 1200px){
+  .container{
+    max-width: 1200px;
+  }
 }

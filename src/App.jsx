@@ -1,9 +1,10 @@
 import './index.scss'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
     <>
-      Bom dia
+      <Navbar></Navbar>
     </>
   )
 }

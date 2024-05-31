@@ -1,0 +1,43 @@
+@import '../sass/variables';
+
+.nav{
+    background: $black;
+}
+
+.nav div{
+    background: $black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav-logo{
+    background-color: $black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-link a{
+    background-color: $black;
+    font-size: 18px;
+}
+
+.nav-link a:first-child{
+    border-right: 1px solid $text-color;
+    padding-right: 20px;
+}
+
+.nav-link a:nth-child(2){
+    padding-left: 20px;
+}
+
+@media (min-width: 1024px){
+    .nav-logo{
+        font-size: 24px;
+    }
+    
+    .nav-link a{
+        font-size: 20px;
+    }
+}
