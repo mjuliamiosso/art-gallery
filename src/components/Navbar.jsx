@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Navbar.scss'
 
 const Navbar = () => {
@@ -7,8 +8,8 @@ const Navbar = () => {
       <div className='container'>
         <p className='nav-logo'>MJMIOSSO</p>
         <div className='nav-link'>
-          <a href="">Portfolio</a>
-          <a href="">Sobre mim</a>
+          <Link to="/">Portfolio</Link>
+          <Link to="/aboutme">Sobre mim</Link>
         </div>
       </div>
     </div>

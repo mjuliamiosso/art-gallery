@@ -13,7 +13,7 @@
 }
 
 .container{
-  max-width: 374px;
+  max-width: 414px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -26,8 +26,8 @@
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1440px){
   .container{
-    max-width: 1200px;
+    max-width: 1440px;
   }
 }
