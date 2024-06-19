@@ -18,19 +18,28 @@ const Home = () => {
   return (
     <div className='img-container container'>
         <img className='img-header' src={HeaderImg} alt="header-img" />
-        <div className='img-box'>
-          <img src={Link} alt="" />
-          <img src={LinkBotw} alt="" />
-          <img src={Zelda} alt="" />
-          <img src={JK} alt="" />
-          <img src={Slg} alt="" />
-          <img src={Tlou} alt="" />
-          <img src={Faroc} alt="" />
-          <img src={Tae} alt="" />
-          <img src={Sketch1} alt="" />
-          <img src={Sketch2} alt="" />
-          <img src={Sketch3} alt="" />
-          <img src={Sketch4} alt="" />
+        <div className='grid-container'>
+          <div className='grid-group1'>
+            <img id='item1' src={Link} alt="" />
+            <img id='item2' src={LinkBotw} alt="" />
+            <img id='item3' src={Zelda} alt="" />
+          </div>
+          <div className='grid-group2'>
+            <img id='item4' src={JK} alt="" />
+            <img id='item5' src={Slg} alt="" />
+          </div>
+          <div className='grid-group3'>
+            <img id='item6' src={Tlou} alt="" />
+            <img id='item7' src={Faroc} alt="" />
+            <img id='item8' src={Tae} alt="" />
+          </div> 
+          <div className='grid-group4'>
+            <img id='item9' src={Sketch1} alt="" />
+            <img id='item10' src={Sketch2} alt="" />
+            <img id='item11' src={Sketch3} alt="" />
+            <img id='item12' src={Sketch4} alt="" />
+          </div>
+         
         </div>
     </div>
   )
