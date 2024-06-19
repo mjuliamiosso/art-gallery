@@ -1,0 +1,117 @@
+@import '../../sass/variables';
+
+.aboutme{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.aboutme img{
+    width: 375px;
+    height: 383px;
+    object-fit: cover;
+}
+
+.aboutme-container{
+    background-color: $text-color;
+    text-align: center;
+    width: 330px;
+    height: 376px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    margin-top: -80px;
+    position: relative;
+}
+
+.aboutme-container h3{
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    background-color: $text-color;
+    color: $bg-color;
+    padding-top: 28px;
+    padding-bottom: 20px;
+}
+
+.aboutme-container p{
+    background-color: $text-color;
+    color: $bg-color;
+    font-size: 18px;
+}
+
+.aboutme-container p:nth-child(2){
+    opacity: 80%;
+    line-height: 25px;
+}
+
+.aboutme-container p:nth-child(3){
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+@media (min-width: 1024px){
+    .aboutme{
+        margin-top: 90px;
+        margin-bottom: 89px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    
+    .aboutme img{
+        width: 464px;
+        height: 561px;
+        margin-right: auto;
+    }
+    
+    .aboutme-container{
+        width: 386px;
+        height: 447px;
+        padding: 35px;
+        margin-top: 0;
+        margin-right: -30px;
+    }
+    
+    .aboutme-container h3{
+        font-size: 30px;
+        padding-top: 50px;
+    }
+}
+
+@media (min-width: 1440px){
+    .aboutme{
+        margin-top: 90px;
+        margin-bottom: 89px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    
+    .aboutme img{
+        width: 509px;
+        height: 618px;
+        margin-right: auto;
+    }
+    
+    .aboutme-container{
+        width: 425px;
+        height: 492px;
+        padding: 35px;
+        margin-top: 0;
+        margin-right: -30px;
+    }
+    
+    .aboutme-container h3{
+        font-size: 36px;
+        padding-top: 75px;
+    }
+
+    .aboutme-container p:nth-child(2){
+        font-size: 20px;
+    }
+    
+    .aboutme-container p:nth-child(3){
+        font-size: 18px;
+    }
+}
