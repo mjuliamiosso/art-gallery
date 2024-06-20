@@ -43,7 +43,6 @@ const Home = () => {
           <Zoom>
             <img id='item8' src={Tae} alt="" />
           </Zoom>
-          
           <Zoom>
             <img id='item6' src={Tlou} alt="" />
           </Zoom>
