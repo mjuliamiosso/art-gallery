@@ -11,7 +11,6 @@
 
 .grid-container img{
     width: 100%;
-    height: 246px;
     margin-bottom: 20px;
     object-fit: cover;
     box-shadow: 0px 11px 3px -5px $black;
@@ -19,80 +18,26 @@
 
 @media (min-width: 1024px){
     .img-header{
-        width: 100%;
         height: 460px;
+    }
+
+    .grid-container{
+        margin-bottom: 100px;
+        width: 100%;
+        columns: 2;
+        column-gap: 15px;
     }
 
     .grid-container img{
         width: 100%;
-        height: 325px;
-        margin-bottom: 0;
+        height: 100%;
+        margin-bottom: 15px;
         object-fit: cover;
     }
-    // GRID
-    #item1 {
-        grid-area: item1;
-        width: 350px;
-        height: 665px;
-    }
-    #item2 {
-        grid-area: item2;
 
-    }
-    #item3 {
-        grid-area: item3;
-    }
-    #item4 {
-        grid-area: item4;
-        height: 410px;
-    }
-    #item5 {
-        grid-area: item5;
-        height: 410px;
-    }
-    #item6 {
-        grid-area: item6;
-    }
-    #item7 {
-        grid-area: item7;
-    }
-    #item8 {
-        grid-area: item8;
-        width: 350px;
-        height: 665px;
-    }
-
-    .grid-group1{
-        display: grid;
-        grid-template-areas: 
-        'item1 item2'
-        'item1 item3';
-        gap: 15px;
-        margin-bottom: 15px;
-    }
-
-    .grid-group2{
-        display: grid;
-        grid-template-areas: 
-        'item4'
-        'item5';
-        gap: 15px;
-        margin-bottom: 15px;
-    }
-
-    .grid-group3{
-        display: grid;
-        grid-template-areas: 
-        'item6 item8'
-        'item7 item8';
-        gap: 15px;
-        margin-bottom: 15px;
-    }
-    .grid-group4{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 15px;
-        margin-bottom: 80px;
+    .grid-box{
+        width: 100%;
+        margin-bottom: 200px;
     }
 }
 
@@ -100,23 +45,9 @@
     .img-header{
         height: 611px;
     }
-
-    .grid-container img{
-        height: 430px;
-    }
-    // GRID
-    #item1 {
-        width: 620px;
-        height: 882px;
-    }
-    #item4{
-        height: 544px;
-    }
-    #item5{
-        height: 544px;
-    }
-    #item8 {
-        width: 620px;
-        height: 882px;
+    
+    .grid-container{
+        margin-bottom: 160px;
+        columns: 3;
     }
 }

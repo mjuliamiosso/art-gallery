@@ -5,11 +5,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  background-color: $bg-color;
   text-decoration: none;
   color: $text-color;
   font-family: "Inter", sans-serif;
+}
+
+body{
+  background-color: $bg-color;
 }
 
 .container{

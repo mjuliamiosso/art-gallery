@@ -14,32 +14,55 @@ import Sketch3 from '../../assets/sketch3.png'
 import Sketch4 from '../../assets/sketch21.png'
 import './index.scss'
 
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
+
 const Home = () => {
   return (
     <div className='img-container container'>
-        <img className='img-header' src={HeaderImg} alt="header-img" />
+        <Zoom>
+          <img className='img-header' src={HeaderImg} alt="header-img" />
+        </Zoom>
         <div className='grid-container'>
-          <div className='grid-group1'>
-            <img id='item1' src={Link} alt="" />
-            <img id='item2' src={LinkBotw} alt="" />
-            <img id='item3' src={Zelda} alt="" />
-          </div>
-          <div className='grid-group2'>
-            <img id='item4' src={JK} alt="" />
+          <Zoom>
+            <img src={Link} alt="Legend of Zelda - Ocarina of Time" 
+            />
+          </Zoom>
+          <Zoom>
             <img id='item5' src={Slg} alt="" />
-          </div>
-          <div className='grid-group3'>
-            <img id='item6' src={Tlou} alt="" />
-            <img id='item7' src={Faroc} alt="" />
+          </Zoom>
+          <Zoom>
+            <img src={LinkBotw} alt="Legend of Zelda - Breath of the Wild"/>
+          </Zoom>
+          <Zoom>
+            <img src={Zelda} alt="Legend of Zelda - Majora's Mask"/>
+          </Zoom>
+          <Zoom>
+            <img id='item4' src={JK} alt="" />
+          </Zoom>
+          <Zoom>
             <img id='item8' src={Tae} alt="" />
-          </div> 
-          <div className='grid-group4'>
-            <img id='item9' src={Sketch1} alt="" />
+          </Zoom>
+          
+          <Zoom>
+            <img id='item6' src={Tlou} alt="" />
+          </Zoom>
+          <Zoom>
+            <img id='item7' src={Faroc} alt="" />
+          </Zoom>  
+          <Zoom>
             <img id='item10' src={Sketch2} alt="" />
-            <img id='item11' src={Sketch3} alt="" />
+          </Zoom>
+          <Zoom>
+            <img id='item9' src={Sketch1} alt="" />
+          </Zoom>
+          <Zoom>
             <img id='item12' src={Sketch4} alt="" />
-          </div>
-         
+          </Zoom>
+          <Zoom>
+            <img id='item11' src={Sketch3} alt="" />
+          </Zoom>
+          
         </div>
     </div>
   )
